@@ -1,4 +1,3 @@
-.App {
-  text-align: center;
+.mobile-navbar{
+  width: calc(100% + 20px);
 }
-
