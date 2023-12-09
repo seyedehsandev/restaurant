@@ -71,7 +71,7 @@ export default function Navbar() {
                 <a href="#" className="hover:text-orange-600 hover:bg-gray-700  w-full py-4 text-center">
                     <li>Home</li>
                 </a>
-                <a href="#" className="flex flex-col justify-center items-center gap-y-2 hover:bg-gray-700  w-full pt-4 text-center hover:text-orange-600">
+                <a href="#" className="flex flex-col justify-center items-center gap-y-2 hover:bg-gray-700  w-full py-4 text-center hover:text-orange-600">
                     
                     <li className="hover:text-orange-600 flex gap-x-1 items-center " onClick={dishesHandler}>Dishes</li>
                     {isDishedOpen ?
