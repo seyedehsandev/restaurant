@@ -75,7 +75,7 @@ export default function Navbar() {
                     
                     <li className=" relative hover:text-orange-600 flex gap-x-1 items-center " onClick={dishesHandler}>Dishes<FaAngleDown className="absolute bottom-0 -right-5 cursor-pointer" /></li>
                     {isDishedOpen ?
-                    <ul className="flex relative -bottom-4 flex-col rounded-lg w-full">
+                    <ul className="flex relative bottom-4 flex-col rounded-lg w-full">
                         <li className='hover:text-orange-100 hover:bg-gray-800 w-full bg-gray-400 py-2'>item</li>
                         <li className='hover:text-orange-100 hover:bg-gray-800 w-full bg-gray-400  py-2'>item</li>
                         <li className='hover:text-orange-100 hover:bg-gray-800 w-full bg-gray-400  py-2'>item</li>
