@@ -21,7 +21,7 @@ export default function Navbar() {
         setIsDishedOpen(!isDishedOpen)
     }
     function loginHandler (){
-
+        console.log("Log in Handler!")
     }
   return (
     <div className="relative flex justify-between items-center w-full h-20 lg:px-14 px-3 text-xl">
