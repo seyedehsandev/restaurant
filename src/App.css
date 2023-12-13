@@ -1,3 +1,7 @@
 .mobile-navbar{
   width: calc(100% + 20px);
 }
+.header {
+  height: calc(100vh - 80px);
+  background-image: url("./../public/img/hero.jpg");
+}

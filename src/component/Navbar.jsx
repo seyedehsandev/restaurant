@@ -38,7 +38,7 @@ export default function Navbar() {
                 <a href="#" className="relative flex justify-center items-end gap-x-1 ">
                     <li className="hover:text-orange-600 flex gap-x-2 items-end" onClick={dishesHandler}>Dishes <FaAngleDown /></li>
                     {isDishedOpen ? 
-                    <ul className="absolute top-8 left-0 flex flex-col gap-y-2 border border-gray-300 py-2 px-10 rounded-lg">
+                    <ul className="absolute top-8 left-0 flex flex-col gap-y-2 border border-gray-300 py-2 px-10 rounded-lg bg-white">
                     <li className='hover:text-orange-600'>item</li>
                     <li className='hover:text-orange-600'>item</li>
                     <li className='hover:text-orange-600'>item</li>
@@ -69,11 +69,11 @@ export default function Navbar() {
         <CgMenuLeft className="text-3xl lg:hidden" onClick={menuHandler} /> */}
         {
             isMenuOpen ? ( <div className="mobile-navbar absolute top-20 -left-4  bg-gray-300 flex flex-col lg:hidden items-center justify-center font-bold text-2xl transition-all">
-            <ul className="flex flex-col items-center justify-center text-gray-700 text-xl w-full">
+            <ul className="flex flex-col items-center justify-center text-gray-700 text-xl w-full overflow-x-hidden">
                 <a href="#" className="hover:text-orange-600 hover:bg-gray-700  w-full py-4 text-center">
                     <li>Home</li>
                 </a>
-                <a href="#" className="flex flex-col  justify-center items-center gap-y-2 hover:bg-gray-700  w-full py-4 text-center hover:text-orange-600">
+                <a href="#" className="flex flex-col  justify-center items-center gap-y-2 hover:bg-gray-700  w-full py-4 text-center hover:text-orange-600 ">
                     
                     <li className=" flex gap-x-1 items-center relative " onClick={dishesHandler} >Dishes<FaAngleDown className="absolute bottom-0 -right-5 cursor-pointer" /></li>
                     {isDishedOpen ?
